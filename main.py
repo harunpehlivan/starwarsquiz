@@ -3,7 +3,7 @@ a=input("Welcome to the Star Wars Quiz. \nOnly a few people get over 80%. Would 
 def clear():
   os.system("clear")
 clear()
-if a=="yes" or a=="yep"or a=="y" or a=="yeet":
+if a in ["yes", "yep", "y", "yeet"]:
   print("Great, let's start")
   time.sleep(2)
   clear()
